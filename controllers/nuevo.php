@@ -30,7 +30,8 @@ class Nuevo extends Controller
                 $modelo == '' || empty($modelo) || $anio == '' || empty($anio) ||
                 $color == '' || empty($color)
             ) {
-                error_log('Campos vacios');
+                error_log('Form::authenticate() empty');
+                $this->redirect('', ['error' => Errors::ERROR_LOGIN_AUTHENTICATE_EMPTY]);
                 return;
             }
 
@@ -41,8 +42,14 @@ class Nuevo extends Controller
             $vehicle->setAnio($anio);
             $vehicle->setColor($color);
 
-            $vehicle->save();
-            $this->redirect('signup', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            if ($vehicle->exists($placa)) {
+                //$this->errorAtSignup('Error al registrar el vehicle. Elige una placa del vehicle diferente');
+                $this->redirect('signup', ['error' => Errors::ERROR_SIGNUP_NEWUSER_EXISTS]);
+            }elseif ($vehicle->save()) {
+                $this->redirect('signup', ['success' => Success::SUCCESS_SIGNUP_NEWUSER]);
+            }else{
+                $this->redirect('signup', ['error' => Errors::ERROR_SIGNUP_NEWUSER]);
+            }
         } else {
             $this->redirect('signup', ['error' => Errors::ERROR_SIGNUP_NEWUSER_EXISTS]);
         }

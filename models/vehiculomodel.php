@@ -120,7 +120,25 @@ class Vehiculomodel extends Model  implements IModel
         $this->color = $array['color'];
     }
 
-    
+    public function exists($placa)
+    {
+        try {
+            $query = $this->prepare('SELECT placa FROM vehiculos WHERE placa = :placa');
+            $query->execute(['placa' => $placa]);
+
+
+            if ($query->rowCount() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (PDOException $e) {
+            echo $e;
+            return false;
+        }
+    }
+
+
 
     #region GET + SET 
     public function setId($id)

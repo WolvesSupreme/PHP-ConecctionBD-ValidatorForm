@@ -261,3 +261,58 @@ Stack trace:
 [11-May-2022 09:04:27 Europe/Berlin] Hello, errors!
 [11-May-2022 09:04:28 Europe/Berlin] Hello, errors!
 [11-May-2022 09:04:50 Europe/Berlin] Hello, errors!
+[12-May-2022 18:28:58 Europe/Berlin] Hello, errors!
+[12-May-2022 18:29:00 Europe/Berlin] Hello, errors!
+[12-May-2022 22:40:03 Europe/Berlin] Hello, errors!
+[12-May-2022 22:40:03 Europe/Berlin] ExistPOST: Existen parámetros
+[12-May-2022 22:40:03 Europe/Berlin] Hello, errors!
+[12-May-2022 22:40:03 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[12-May-2022 22:40:03 Europe/Berlin] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:40:03 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:41:04 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:05 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:07 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:21 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:33 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:33 Europe/Berlin] ExistPOST: Existen parámetros
+[12-May-2022 22:41:33 Europe/Berlin] Hello, errors!
+[12-May-2022 22:41:33 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[12-May-2022 22:41:33 Europe/Berlin] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:41:33 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:42:54 Europe/Berlin] Hello, errors!
+[12-May-2022 22:42:55 Europe/Berlin] Hello, errors!
+[12-May-2022 22:43:06 Europe/Berlin] Hello, errors!
+[12-May-2022 22:43:06 Europe/Berlin] ExistPOST: Existen parámetros
+[12-May-2022 22:43:06 Europe/Berlin] Hello, errors!
+[12-May-2022 22:43:06 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[12-May-2022 22:43:06 Europe/Berlin] PHP Warning:  require(views/errores/index.php): failed to open stream: No such file or directory in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:43:06 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'views/errores/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sessionSix\libs\view.php on line 14
+[12-May-2022 22:44:12 Europe/Berlin] Hello, errors!
+[12-May-2022 22:44:13 Europe/Berlin] Hello, errors!
+[12-May-2022 22:44:23 Europe/Berlin] Hello, errors!
+[12-May-2022 22:44:23 Europe/Berlin] ExistPOST: Existen parámetros
+[12-May-2022 22:44:23 Europe/Berlin] Hello, errors!
+[12-May-2022 22:44:23 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[12-May-2022 22:44:32 Europe/Berlin] Hello, errors!
+[12-May-2022 22:46:09 Europe/Berlin] Hello, errors!
+[12-May-2022 22:46:19 Europe/Berlin] Hello, errors!
+[12-May-2022 22:46:20 Europe/Berlin] Hello, errors!
+[12-May-2022 22:46:33 Europe/Berlin] Hello, errors!
+[13-May-2022 03:33:17 Europe/Berlin] Hello, errors!
+[13-May-2022 03:33:19 Europe/Berlin] Hello, errors!
+[13-May-2022 03:33:56 Europe/Berlin] Hello, errors!
+[13-May-2022 03:33:56 Europe/Berlin] ExistPOST: Existen parámetros
+[13-May-2022 03:33:56 Europe/Berlin] Hello, errors!
+[13-May-2022 03:33:56 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[13-May-2022 03:35:52 Europe/Berlin] Hello, errors!
+[13-May-2022 03:35:52 Europe/Berlin] ExistPOST: Existen parámetros
+[13-May-2022 03:35:52 Europe/Berlin] Hello, errors!
+[13-May-2022 03:35:52 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
+[13-May-2022 03:35:53 Europe/Berlin] Hello, errors!
+[13-May-2022 03:35:54 Europe/Berlin] Hello, errors!
+[13-May-2022 03:35:56 Europe/Berlin] Hello, errors!
+[13-May-2022 03:35:57 Europe/Berlin] Hello, errors!
+[13-May-2022 03:36:08 Europe/Berlin] Hello, errors!
+[13-May-2022 03:36:08 Europe/Berlin] ExistPOST: Existen parámetros
+[13-May-2022 03:36:08 Europe/Berlin] Hello, errors!
+[13-May-2022 03:36:08 Europe/Berlin] View::handleError() existsKey =>El nombre de usuario ya existe, selecciona otro
